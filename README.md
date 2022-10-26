@@ -1,9 +1,11 @@
-The `index.html` file
-- should diplay a document title
-- should display an importance level one heading
-- should display paragraph text
+the `index.html` file
+- should display an importance level two heading
+- should contain a div
+- should contian a span
+- should contain an image with a source and an alternative text
 
 Resources:
-- https://www.w3schools.com/tags/tag_title.asp
 - https://www.w3schools.com/tags/tag_hn.asp
-- https://www.w3schools.com/tags/tag_p.asp
+- https://www.w3schools.com/tags/tag_div.asp
+- https://www.w3schools.com/tags/tag_span.asp
+- https://www.w3schools.com/tags/tag_img.asp

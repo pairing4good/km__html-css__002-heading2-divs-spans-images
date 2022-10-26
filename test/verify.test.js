@@ -36,23 +36,41 @@ afterEach(async () => {
   await browser.close();
 });
 
-describe('title', () => {
+describe('heading 2', () => {
   it('should exist', async () => {
-    const title = await page.$('head title');
-    expect(title).not.toBeNull();
-  });
-});
-
-describe('heading 1', () => {
-  it('should exist', async () => {
-    const heading = await page.$('h1');
+    const heading = await page.$('h2');
     expect(heading).not.toBeNull();
   });
 });
 
-describe('paragraph', () => {
+describe('span', () => {
   it('should exist', async () => {
-    const paragraph = await page.$('p');
-    expect(paragraph).not.toBeNull();
+    const span = await page.$('span')
+    expect(span).not.toBeNull();
+  });
+});
+
+
+describe('div', () => {
+  it('should exist', async () => {
+    const div = await page.$('div')
+    expect(div).not.toBeNull();
+  });
+});
+
+describe('image', () => {
+  it('should exist', async () => {
+    const img = await page.$('img')
+    expect(img).not.toBeNull();
+  });
+  
+  it('should have source attribute', async () => {
+    const source = await page.$('img[src]')
+    expect(source).not.toBeNull();
+  });
+  
+  it('should have alternate text attribute', async () => {
+    const alternateText = await page.$('img[alt]')
+    expect(alternateText).not.toBeNull();
   });
 });
