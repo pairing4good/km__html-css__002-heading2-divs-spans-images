@@ -1,3 +1,7 @@
+# 002 Divs, Spans and Images
+
+[![002 Divs, Spans and Images](https://img.youtube.com/vi/IJPZspUtos8/0.jpg)](https://www.youtube.com/watch?v=IJPZspUtos8)
+
 the `index.html` file
 - should display an importance level two heading
 - should contain a div
